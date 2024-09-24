@@ -70,6 +70,15 @@ nav ul li a {
     font-size: 22px;
 }
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 50em;
+    height: 40em;
+    padding: 0;
+    overflow: hidden;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;

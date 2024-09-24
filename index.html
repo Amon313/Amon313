@@ -9,165 +9,163 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>Amon McAllister</h1>
-            <p>Virtual Reality Developer | Software Engineer | Unity Developer</p>
-            <nav>
+<header>
+    <div class="container">
+        <h1>Amon McAllister</h1>
+        <p>Virtual Reality Developer | Software Engineer | Unity Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello, I am Amon McAllister. I attended Iowa State University and got my undergraduate degree in software engineering.
+            I am currently pursuing a masters in Industrial Agricultural Technology and a Co-major in Human Computer Interaction.
+            I have worked for a lab on the ISU campus by the name VirtuTrace for almost 3 years now and as such have a lot of experience with Virtual Reality, Unity, and training simulations.
+        </p>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>VirtuTrace Labs - Iowa State University</h3>
+            <p class="location">Ames, IA</p>
+            <p class="position">Virtual Reality Software Engineer & Unity Developer</p>
+            <p>Feb 2022–Present</p>
+            <ul>
+                <p>Led development of a VR training simulation for Iowa Department of Transportation</p>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <p>Interact with the driver and review their documents</p>
                 </ul>
-            </nav>
+                <li>Designed interactive UI systems and digital tool replicas</li>
+                <li>Developed user tracking and action-recording systems</li>
+                <li>Adapted features to meet evolving client requirements</li>
+                <li>Engineered a zero-latency audio recording system</li>
+                <li>Created reusable code packages for cross-project use</li>
+                <li>Refactored legacy systems for current applications</li>
+                <li>Contributed to a PhD dissertation simulation</li>
+                <li>Implemented custom 3D vector solutions</li>
+                <li>Delivered high-fidelity VR simulations, replicating real-world objects</li>
+                <li>Developed a VR training scenario for first responders handling radiation incidents</li>
+            </ul>
         </div>
-    </header>
+        <!-- Add more job experiences as needed -->
+    </div>
+</section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello, I am Amon McAllister. I attended Iowa State University and got my undergraduate degree in software engineering. 
-                I am currently pursuing a masters in Industrial Agricultural Technology and a Co-major in Human Computer Interaction. 
-                I have worked for a lab on the ISU campus by the name VirtuTrace for almost 3 years now and as such have a lot of experience with Virtual Reality, Unity, and training simulations.
-            </p>
+<section id="projects" class="section">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MVE-VR</h3>
         </div>
-    </section>
-    
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>VirtuTrace Labs - Iowa State University</h3>
-                <p class="location">Ames, IA</p>
-                <p class="position">Virtual Reality Software Engineer & Unity Developer</p>
-                <p>Feb 2022–Present</p>
+        <div>
+            <div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive" src="https://www.youtube.com/embed/qyeQbD1ACHI" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>An all-inclusive training solution for vehicle inspections made for the Iowa Department of Transportation that I served as a developer on.</p>
+                <p>With MVE-VR, put your trainees through a level VI vehicle inspection and immediately conduct a segmented After Action Review. This review breaks down every portion of the vehicle inspection and allows you and your trainee to view an interactive simulation playback from different camera angles of what the trainee saw whilst in Virtual Reality.</p>
+                <h4>In this full scale vehicle inspection simulator trainees can:</h4>
                 <ul>
-                    <p>Led development of a VR training simulation for Iowa Department of Transportation</p>
-                        <ul>
-                            <p>Interact with the driver and review their documents</p>
-                        </ul>
-                    <li>Designed interactive UI systems and digital tool replicas</li>
-                    <li>Developed user tracking and action-recording systems</li>
-                    <li>Adapted features to meet evolving client requirements</li>
-                    <li>Engineered a zero-latency audio recording system</li>
-                    <li>Created reusable code packages for cross-project use</li>
-                    <li>Refactored legacy systems for current applications</li>
-                    <li>Contributed to a PhD dissertation simulation</li>
-                    <li>Implemented custom 3D vector solutions</li>
-                    <li>Delivered high-fidelity VR simulations, replicating real-world objects</li>
-                    <li>Developed a VR training scenario for first responders handling radiation incidents</li>
+                    <li>Interact with the driver and review their documents</li>
+                    <li>Check lights and vehicle functions</li>
+                    <li>Gather radiation readings of shipments</li>
+                    <li>Inspect items and view their statuses</li>
+                    <li>Go inside the cab and inspect instruments</li>
+                    <li>Get under the hood and view critical parts</li>
+                    <li>Take pictures and audio recordings of your findings</li>
+                </ul>
+                <h4>Before and after an inspection Instructors are able to:</h4>
+                <ul>
+                    <li>Author their own vehicle damage generator for a more direct inspection</li>
+                    <li>Put trainees in a completely randomized or a previously authored inspection</li>
+                    <li>Spectate an inspection that is being conducted on another computer</li>
+                    <li>Add users that need to conduct inspections</li>
+                    <li>Review past inspections with a detailed segmented After Action Review</li>
+                </ul>
+                <h4>I personally developed:</h4>
+                <ul>
+                    <li>Many of the inspection elements and grabbables</li>
+                    <ul>
+                        <li>Brakes and other undercarriage interactables</li>
+                        <li>Lug nuts and tires</li>
+                        <li>Cabin including wheel and accurate reading pressure gauges</li>
+                        <li>Document system</li>
+                        <li>Lights</li>
+                    </ul>
+                    <li>Inspection System</li>
+                    <ul>
+                        <li>Tooltips that pop up when physically interacting with elements</li>
+                        <li>Audio recording that can be saved and viewed later</li>
+                        <li>Picture taking that can be saved and viewed later</li>
+                        <li>This system has been used in other projects</li>
+                    </ul>
                 </ul>
             </div>
-            <!-- Add more job experiences as needed -->
         </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>MVE-VR</h3>
-            </div>
+        <div class="project">
+            <h3>HazRec-VR</h3>
+        </div>
+        <div>
             <div>
-                <div>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qyeQbD1ACHI" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p>An all-inclusive training solution for vehicle inspections made for the Iowa Department of Transportation that I served as a developer on.</p>
-                    <p>With MVE-VR, put your trainees through a level VI vehicle inspection and immediately conduct a segmented After Action Review. This review breaks down every portion of the vehicle inspection and allows you and your trainee to view an interactive simulation playback from different camera angles of what the trainee saw whilst in Virtual Reality.</p>
-                    <h4>In this full scale vehicle inspection simulator trainees can:</h4>
-                    <ul>
-                        <li>Interact with the driver and review their documents</li>
-                        <li>Check lights and vehicle functions</li>
-                        <li>Gather radiation readings of shipments</li>
-                        <li>Inspect items and view their statuses</li>
-                        <li>Go inside the cab and inspect instruments</li>
-                        <li>Get under the hood and view critical parts</li>
-                        <li>Take pictures and audio recordings of your findings</li>
-                    </ul>
-                    <h4>Before and after an inspection Instructors are able to:</h4>
-                    <ul>
-                        <li>Author their own vehicle damage generator for a more direct inspection</li>
-                        <li>Put trainees in a completely randomized or a previously authored inspection</li>
-                        <li>Spectate an inspection that is being conducted on another computer</li>
-                        <li>Add users that need to conduct inspections</li>
-                        <li>Review past inspections with a detailed segmented After Action Review</li>
-                    </ul>
-                    <h4>I personally developed:</h4>
-                    <ul>
-                        <li>Many of the inspection elements and grabbables</li>
-                            <ul>
-                                <li>Brakes and other undercarriage interactables</li>
-                                <li>Lug nuts and tires</li>
-                                <li>Cabin including wheel and accurate reading pressure gauges</li>
-                                <li>Document system</li>
-                                <li>Lights</li>
-                            </ul>
-                        <li>Inspection System</li>
-                            <ul>
-                                <li>Tooltips that pop up when physically interacting with elements</li>
-                                <li>Audio recording that can be saved and viewed later</li>
-                                <li>Picture taking that can be saved and viewed later</li>
-                                <li>This system has been used in other projects</li>
-                            </ul>
-                    </ul>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive" src="https://www.youtube.com/embed/yX9txWlE9b8?si=1mkIYgfFGRKQ7hhK" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="project">
-                <h3>HazRec-VR</h3>
+            <div class="col-md-6">
+                <p>A virtual reality simulation created for research of occupational safety workers perceptions and
+                    biases where users are able to take pictures of hazards and record a voice note describing the hazard.</p>
+                <h4>I personally developed:</h4>
+                <ul>
+                    <li>The voice recording that is used for participant data collection</li>
+                    <li>The image recording and saving that is used for participant data collection</li>
+                    <li>Eye tracking and Gaze tracking which did not make it in the study</li>
+                </ul>
             </div>
-            <div>
-                <div>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yX9txWlE9b8?si=1mkIYgfFGRKQ7hhK" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p>A virtual reality simulation created for research of occupational safety workers perceptions and 
-                        biases where users are able to take pictures of hazards and record a voice note describing the hazard.</p>
-                    <h4>I personally developed:</h4>
-                    <ul>
-                        <li>The voice recording that is used for participant data collection</li>
-                        <li>The image recording and saving that is used for participant data collection</li>
-                        <li>Eye tracking and Gaze tracking which did not make it in the study</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Add more projects as needed -->
         </div>
-    </section>
 
-    <section id="publication" class="section">
-        <div class="container">
-            <h2>Publication</h2>
-            <p>Keren, N., Lawson, A.D., Johnson, R., Jacob, A., <strong>McAllister, A.</strong>, Webster, A., & Leek, 	A. (November, 2023). Me and my report: 
-                A segmentized After-Action Review 		embedded report application for supporting maintenance training in VR, 			
-                Proceedings of the 2023 Interservice/Industry Training, Simulation, and Education 	Conference (I/ITSEC)
-            
-        </div>
-    </section>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>School Email: <a href="mailto:amonm@iastate.edu">amonm@iastate.edu</a></p>
-            <p>Personal Email: <a href="mailto:akmcallister1@gmail.com">akmcallister1@gmail.com</a></p>
+<section id="publication" class="section">
+    <div class="container">
+        <h2>Publication</h2>
+        <p>Keren, N., Lawson, A.D., Johnson, R., Jacob, A., <strong>McAllister, A.</strong>, Webster, A., & Leek, 	A. (November, 2023). Me and my report:
+            A segmentized After-Action Review 		embedded report application for supporting maintenance training in VR,
+            Proceedings of the 2023 Interservice/Industry Training, Simulation, and Education 	Conference (I/ITSEC)
 
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
-    </footer>
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>School Email: <a href="mailto:amonm@iastate.edu">amonm@iastate.edu</a></p>
+        <p>Personal Email: <a href="mailto:akmcallister1@gmail.com">akmcallister1@gmail.com</a></p>
+
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/amon-mcallister-3987a5207/" target="_blank">Your LinkedIn Profile</a></p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 
 </html>
- 
